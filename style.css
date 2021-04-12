@@ -108,9 +108,9 @@ h1 {
 }
 
 .primary h2 {
-	font-size: 2rem;
+	font-size: 2.7rem;
 	font-weight: 400;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.25rem;
 	margin-bottom: 2.5rem;
 	word-spacing: 0.3rem;
 }
@@ -136,7 +136,7 @@ h1 {
 	color: #777;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 1.5rem 3rem;
+	padding: 1.5rem 2.5rem;
 	border-radius: 10rem;
 	display: inline-block;
 	cursor: pointer;
