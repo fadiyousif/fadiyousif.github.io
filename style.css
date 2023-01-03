@@ -61,15 +61,6 @@ header .fa-code {
    left: 3rem;
 }
 
-#email {
-   position: absolute;
-   top: 3rem;
-   right: 3rem;
-   color: #f0f0f0;
-   font-size: 2rem;
-   text-decoration: none;
-}
-
 .underline::after {
    content: "";
    position: absolute;
