@@ -481,7 +481,7 @@ h1 > span {
 
 .case-studies {
   padding: 70px 30px;
-  margin-top: 90px;
+  /* margin-top: 90px; */
 }
 
 @media (max-width: 37.5em) {
