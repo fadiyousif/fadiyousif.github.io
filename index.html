@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Fadi Yousif</title>
+    <script>(function(){var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="visually-hidden">Header</h2>
+      <div class="wrapper">
+        <nav class="header__nav">
+          <h2 class="visually-hidden">Navigation</h2>
+          <a href="" class="header__home">
+            &lt;fadi_dev /&gt;
+            <span class="visually-hidden">(to home page)</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/fadi-yousif1/"
+            target="_blank"
+            class="header__social"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              aria-labelledby="socialLinkedIn"
+              role="img"
+            >
+              <title id="socialLinkedIn">LinkedIn</title>
+              <path
+                fill="#FFF"
+                fill-rule="evenodd"
+                d="M5.551 3.304c-1.14 0-2.067.926-2.067 2.064 0 1.14.928 2.066 2.067 2.066a2.066 2.066 0 0 0 0-4.13ZM3.767 8.998v11.453h3.562L7.33 8.998H3.767Zm5.798 0V20.45l3.554.002.002-5.668c0-1.454.253-2.941 2.132-2.941 1.851 0 1.851 1.755 1.851 3.036v5.571l3.559-.001v-6.28c0-2.834-.517-5.457-4.27-5.457-1.763 0-2.916.997-3.368 1.85h-.05V8.997h-3.41ZM22.435 24H1.982c-.976 0-1.77-.777-1.77-1.732V1.731C.212.776 1.006 0 1.982 0h20.453c.98 0 1.777.776 1.777 1.73v20.538c0 .955-.797 1.732-1.777 1.732Z"
+              />
+            </svg>
+          </a>
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrapper hero__wrapper">
+          <div class="hero__content">
+            <picture>
+              <img
+                class="hero__image"
+                src="./assets/image-profile-transparent.png"
+                alt="picture of Fadi"
+                width="174"
+                height="383"
+                draggable="false"
+              />
+            </picture>
+            <img
+              class="hero__rings"
+              src="./assets/pattern-rings.svg"
+              alt=""
+              width="530"
+              height="129"
+            />
+            <img
+              class="hero__circle"
+              src="./assets/pattern-circle.svg"
+              alt=""
+              width="129"
+              height="129"
+            />
+            <div class="hero__text">
+              <h1 class="hero__headline header-xl">
+                Hi, I'm Fadi. I build web experiences that convert
+              </h1>
+              <p class="hero__description">
+                Fast to ship, easy to work with.
+              </p>
+              <div>
+                <a href="#testimonials" class="hero__contact underline">Read reviews</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="hero__testimonials-bg">
+          <div class="wrapper hero__testimonials section-padding">
+            <div class="hero__testimonial">
+              <div class="hero__stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote class="hero__quote">
+                "Fadi is an exceptionally skilled developer who is a pleasure to communicate and collaborate with. He completed all tasks promptly and demonstrated a high level of expertise throughout. We highly recommend working with him!"
+              </blockquote>
+              <p class="hero__testimonial-source">via Upwork &middot; Hourly contract</p>
+            </div>
+            <div class="hero__testimonial">
+              <div class="hero__stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote class="hero__quote">
+                "Fadi was amazing to work with and would highly recommend him to anyone. Great skills and works fast."
+              </blockquote>
+              <p class="hero__testimonial-source">via Upwork &middot; Fixed-price project</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="wrapper section-padding bottom-border">
+          <div class="about__content">
+            <img
+              class="about__image"
+              src="./assets/image-at-desk.jpg"
+              alt="Fadi sitting at his desk"
+              draggable="false"
+            />
+            <div class="about__text">
+              <h2 class="about__headline">About Me</h2>
+              <p>
+                I'm a web developer based in Göteborg. Just moved here from Västerås, where I lived for 7 years.
+              </p>
+              <p>
+                My background spans logistics tech at Budbee, SaaS at Upsales, and e-commerce as a freelancer, giving me a broad view of how different businesses use the web to grow. I've worked as a full-time contractor, on monthly retainers, and alongside agencies on client projects.
+              </p>
+              <p>
+                I like to embed myself in the team, take ownership, and see things through.
+              </p>
+              <p>
+                I don't have a favorite stack. I've worked across different languages, frameworks, and content management systems, and I use whatever best fits the problem. Sometimes that means building from scratch. Sometimes it means reaching for an existing tool that gets the job done faster and more reliably. The same goes for my desk setup — as you can see in the photo, it's just a laptop. Whatever gets the job done.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline">
+        <div class="wrapper section-padding bottom-border">
+          <div class="timeline__inner">
+            <div>
+              <h2 class="timeline__headline">Work History</h2>
+              <ol class="timeline__list">
+                <li class="timeline__item">
+                  <span class="timeline__date">June 2023 — Present</span>
+                  <h3 class="timeline__role">Freelance Web Developer</h3>
+                  <p class="timeline__company">Self-employed</p>
+                </li>
+                <li class="timeline__item">
+                  <span class="timeline__date">Jan 2023 — June 2023</span>
+                  <h3 class="timeline__role">Full-stack Developer</h3>
+                  <p class="timeline__company">Upsales</p>
+                </li>
+                <li class="timeline__item">
+                  <span class="timeline__date">Aug 2021 — Dec 2022</span>
+                  <h3 class="timeline__role">Frontend Developer</h3>
+                  <p class="timeline__company">Budbee</p>
+                </li>
+              </ol>
+            </div>
+            <div class="tech-stack">
+              <ul class="tech-stack__list">
+                <li class="tech-stack__label">A few of the tools I've worked with</li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/javascript.svg" alt="JavaScript" width="56" height="56" draggable="false" />
+                  <span>JavaScript</span>
+                </li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/typescript.svg" alt="TypeScript" width="56" height="56" draggable="false" />
+                  <span>TypeScript</span>
+                </li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/react.svg" alt="React" width="56" height="56" draggable="false" />
+                  <span>React</span>
+                </li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/node.svg" alt="Node.js" width="56" height="56" draggable="false" />
+                  <span>Node.js</span>
+                </li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/php.svg" alt="PHP" width="56" height="56" draggable="false" />
+                  <span>PHP</span>
+                </li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/wordpress.svg" alt="WordPress" width="56" height="56" draggable="false" />
+                  <span>WordPress</span>
+                </li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/shopify.svg" alt="Shopify" width="56" height="56" draggable="false" />
+                  <span>Shopify</span>
+                </li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/postgresql.svg" alt="PostgreSQL" width="56" height="56" draggable="false" />
+                  <span>PostgreSQL</span>
+                </li>
+                <li class="tech-stack__item">
+                  <img src="./assets/logos/mysql.svg" alt="MySQL" width="56" height="56" draggable="false" />
+                  <span>MySQL</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="case-studies wrapper section-padding top-border"
+        id="case-studies"
+      >
+        <h2 class="case-studies__headline">Case Studies</h2>
+        <div class="case-study__item">
+          <img
+            class="case-study__image"
+            src="./assets/neuroganhealth.png"
+            alt="Neurogan Health storefront"
+            draggable="false"
+          />
+          <div class="case-study__info">
+            <h3 class="case-study__name">Neurogan Health</h3>
+            <p class="case-study__description">
+              19 months as a full-time contractor on their online storefront. Built product pages, landing pages, UI components, and lead magnets. Integrated Klaviyo, customized cart behavior, added structured data, and optimized for technical SEO and performance — contributing to a <strong>371% increase in sales</strong> and a <strong>38% lift in conversion rate</strong>.
+            </p>
+            <a href="https://neuroganhealth.com" target="_blank" class="underline">Live Site</a>
+          </div>
+        </div>
+        <div class="case-study__item">
+          <img
+            class="case-study__image"
+            src="./assets/pathfinding-visualizer.png"
+            alt="Pathfinding Visualizer app"
+            draggable="false"
+          />
+          <div class="case-study__info">
+            <h3 class="case-study__name">Pathfinding Visualizer</h3>
+            <p class="case-study__description">
+              Place walls, drag start and end nodes, or generate a maze, then pick an algorithm and watch it explore the grid in real time. Supports Dijkstra's, A*, and DFS, with a live status bar showing step count and elapsed time. All animations are CSS-driven; sound effects are procedurally generated via the Web Audio API.
+            </p>
+            <div class="case-study__links">
+              <a href="https://fadiyousif.github.io/pathfinding-visualizer" class="underline" target="_blank">Live Site</a>
+              <a href="https://github.com/fadiyousif/pathfinding-visualizer" class="underline" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-less-dark">
+      <h2 class="visually-hidden">Footer</h2>
+      <div class="wrapper">
+        <nav class="header__nav">
+          <h2 class="visually-hidden">Navigation</h2>
+          <a href="" class="header__home">
+            &lt;fadi_dev /&gt;
+            <span class="visually-hidden">(to home page)</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/fadi-yousif1"
+            target="_blank"
+            class="header__social"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              aria-labelledby="footerSocialLinkedIn"
+              role="img"
+            >
+              <title id="footerSocialLinkedIn">LinkedIn</title>
+              <path
+                fill="#FFF"
+                fill-rule="evenodd"
+                d="M5.551 3.304c-1.14 0-2.067.926-2.067 2.064 0 1.14.928 2.066 2.067 2.066a2.066 2.066 0 0 0 0-4.13ZM3.767 8.998v11.453h3.562L7.33 8.998H3.767Zm5.798 0V20.45l3.554.002.002-5.668c0-1.454.253-2.941 2.132-2.941 1.851 0 1.851 1.755 1.851 3.036v5.571l3.559-.001v-6.28c0-2.834-.517-5.457-4.27-5.457-1.763 0-2.916.997-3.368 1.85h-.05V8.997h-3.41ZM22.435 24H1.982c-.976 0-1.77-.777-1.77-1.732V1.731C.212.776 1.006 0 1.982 0h20.453c.98 0 1.777.776 1.777 1.73v20.538c0 .955-.797 1.732-1.777 1.732Z"
+              />
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </footer>
+  <script>
+    document.getElementById('theme-toggle').addEventListener('click', function() {
+      var html = document.documentElement;
+      var next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  </script>
+  </body>
+</html>
