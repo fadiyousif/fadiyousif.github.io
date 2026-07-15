@@ -727,6 +727,12 @@ h1 > span {
   margin-block-end: 24px;
 }
 
+.case-study__note {
+  font-size: 0.875rem;
+  color: var(--text2);
+  margin-block-end: 24px;
+}
+
 /* footer */
 
 footer {
