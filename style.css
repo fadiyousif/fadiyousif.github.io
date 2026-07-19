@@ -515,10 +515,6 @@ h1 > span {
     margin-block-end: 43px;
   }
 
-  .hero__headline > br {
-    display: none;
-  }
-
   .hero__description {
     width: 38ch;
     margin-block-end: 66px;
