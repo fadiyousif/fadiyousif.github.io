@@ -11,7 +11,7 @@
   --border-subtle: hsla(0, 0%, 85%, 0.15);
   --fs-18: 1.125rem;
   --fs-sm: 0.875rem;
-  --fs-section-headline: 2.5rem;
+  --fs-section-headline: clamp(1.75rem, 4vw, 2.5rem);
   --radius: 8px;
   --container: 69.375rem;
   --transition: 250ms ease-in-out;
@@ -94,7 +94,7 @@ h3 {
 }
 
 .header-xl {
-  font-size: clamp(2rem, 6vw, 3.9rem);
+  font-size: clamp(2.5rem, 6vw, 3.9rem);
   letter-spacing: -0.028em;
   line-height: 1.1;
 }
@@ -730,7 +730,7 @@ h1 > span {
 }
 
 .case-study__name {
-  font-size: 1.75rem;
+  font-size: clamp(1.5rem, 3vw, 1.75rem);
   margin-block-end: 16px;
 }
 
