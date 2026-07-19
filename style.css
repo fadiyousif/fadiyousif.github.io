@@ -600,6 +600,7 @@ h1 > span {
 .timeline__headline {
   font-size: var(--fs-section-headline);
   margin-block-end: 32px;
+  overflow-wrap: anywhere;
 }
 
 .tech-stack__label {
