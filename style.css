@@ -251,6 +251,19 @@ svg {
   fill: var(--accent);
 }
 
+.lang-switch {
+  color: var(--text1);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  transition: color var(--transition);
+}
+
+.lang-switch:hover {
+  color: var(--accent);
+}
+
 @media (min-width: 37.5em) {
   .header {
     margin-block-start: 30px;
