@@ -692,13 +692,7 @@ h1 > span {
 }
 
 .case-study__item + .case-study__item {
-  margin-block-start: 48px;
-}
-
-@media (min-width: 37.5em) {
-  .case-study__item + .case-study__item {
-    margin-block-start: 64px;
-  }
+  margin-block-start: 64px;
 }
 
 @media (min-width: 62.5em) {
