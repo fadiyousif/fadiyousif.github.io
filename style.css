@@ -705,7 +705,7 @@ h1 > span {
   .case-study__item {
     grid-template-columns: 3fr 2fr;
     gap: 60px;
-    align-items: center;
+    align-items: start;
   }
 }
 
